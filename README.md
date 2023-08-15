@@ -1,1 +1,3 @@
 # RenovaBR
+
+Ao baixar a base dados optei pela utilização do Python. Com a ajuda do Google Collab. Primeiramente importei a base em .csv e observei seu tamanho e suas variaveis. Como a analise girava em torno do estado de São Paulo, a primeira coisa a se fazer era deixar apenas os dados do estado paulista. Depois disso, analisei quais variaveis não iriam auxiliar na busca do resultado, assim retirei 5: DT_GERACAO:A data não afeta, já que há apenas 1 dia possivel HH_GERACAO: ANO_ELEICAO:como se tratava apenas de 2020, não afetaria nossa analise CD_MUN_SIT_BIOMETRIA:continua apenas 1 valor, o 0 S_MUN_SIT_BIOMETRIA:contiha apenas dados faltantes e "sem biometria"
